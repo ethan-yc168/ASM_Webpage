@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASM2026//Auditory Science Meeting 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:asm2026@manchester.ac.uk
+DTSTAMP:20260312T120000Z
+DTSTART;TZID=Europe/London:20260908T093000
+DTEND;TZID=Europe/London:20260909T163000
+SUMMARY:Auditory Science Meeting 2026
+DESCRIPTION:The Auditory Science Meeting (ASM2026) will take place in Manchester. Further details will be updated as confirmed.
+LOCATION:Manchester\, UK
+ORGANIZER;CN=ASM2026:mailto:ASM2026@manchester.ac.uk
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+
+END:VCALENDAR
