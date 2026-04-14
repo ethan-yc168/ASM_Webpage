@@ -386,3 +386,57 @@ h1 {
         transition: none !important;
     }
 }
+
+.sponsors-card {
+    grid-column: 1;
+}
+
+.sponsor-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1.25rem;
+}
+
+.sponsor-logo {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.sonova-logo {
+    max-height: 58px;
+}
+
+.wsa-logo {
+    max-height: 48px;
+}
+
+@media (max-width: 900px) {
+    .sponsors-card {
+        grid-column: auto;
+    }
+
+    .sponsor-logos {
+        gap: 5rem;
+    }
+
+    .sonova-logo,
+    .wsa-logo {
+        max-height: 42px;
+    }
+}
+
+.hero + .hero {
+    margin-top: 24px;
+}
+
+.hero h2 {
+    margin: 0 0 16px;
+    font-size: 1.9rem;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    color: #0f172a;
+}
