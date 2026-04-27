@@ -542,3 +542,52 @@ h1 {
     line-height: 1.4;
     color: #475467;
 }
+
+.visitor-info-list {
+    margin-top: 1rem;
+}
+
+.visitor-info-list details {
+    border-top: 1px solid #e5e7eb;
+    padding: 1rem 0;
+}
+
+.visitor-info-list details:last-child {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.visitor-info-list summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.visitor-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.visitor-table th,
+.visitor-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+    vertical-align: top;
+}
+
+.visitor-table th {
+    font-weight: 700;
+    color: #0f172a;
+    background: #f8fafc;
+}
+
+.visitor-table th:last-child,
+.visitor-table td:last-child {
+    white-space: nowrap;
+}
