@@ -591,3 +591,8 @@ h1 {
 .visitor-table td:last-child {
     white-space: nowrap;
 }
+
+.old-deadline {
+    text-decoration: line-through;
+    opacity: 0.65;
+}
