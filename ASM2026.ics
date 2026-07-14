@@ -7,11 +7,11 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 UID:asm2026@manchester.ac.uk
 DTSTAMP:20260312T120000Z
-DTSTART;TZID=Europe/London:20260908T093000
-DTEND;TZID=Europe/London:20260909T163000
+DTSTART;TZID=Europe/London:20260908T091500
+DTEND;TZID=Europe/London:20260909T164500
 SUMMARY:Auditory Science Meeting 2026
 DESCRIPTION:The Auditory Science Meeting (ASM2026) will take place in Manchester. Further details will be updated as confirmed.
-LOCATION:Manchester\, UK
+LOCATION:Core Technology Facility\, 46 Grafton Street\, Manchester\, M13 9WU\, UK
 ORGANIZER;CN=ASM2026:mailto:ASM2026@manchester.ac.uk
 STATUS:CONFIRMED
 TRANSP:OPAQUE
